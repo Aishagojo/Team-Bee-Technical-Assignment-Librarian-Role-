@@ -1,0 +1,28 @@
+body {
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            min-height: calc(100vh - 120px);
+        }
+        .nav-link.active {
+            background-color: #e3f2fd !important;
+            color: #1976d2 !important;
+        }
+        .book-card {
+            transition: background-color 0.2s;
+        }
+        .book-card:hover {
+            background-color: #f8f9fa;
+        }
+        .login-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .badge-stock {
+            font-size: 0.75em;
+        }
+        .condition-good { background-color: #d4edda; color: #155724; }
+        .condition-fair { background-color: #fff3cd; color: #856404; }
+        .condition-damaged { background-color: #f8d7da; color: #721c24; }
